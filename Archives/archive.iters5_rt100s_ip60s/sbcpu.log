@@ -1,0 +1,13 @@
+Log for pmlogger on kamrui started Fri Apr 18 11:40:10 2025
+
+[Fri Apr 18 11:40:10] pmlogger(658189) Info: Start
+preprocessor cmd: /usr/libexec/pcp/bin/pmcpp -rs -I /var/lib/pcp/config/pmlogger /usr/local/src/PCPrecord/sbcpu.cfg
+Warning [/usr/local/src/PCPrecord/sbcpu.cfg, line 13]
+Problem with lookup for metric "openmetrics.RFchassis" ... logging not activated
+Reason: Unknown metric name
+Config parsed
+Starting logger for host "kamrui" via "local:"
+Archive basename: /usr/local/src/PCPrecord/archive.20250418113947/sbcpu
+[Fri Apr 18 11:53:38] pmlogger(658189) Info: pmlogger: Caught signal 10, exiting
+
+Log finished Fri Apr 18 11:53:38 2025
