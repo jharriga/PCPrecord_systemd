@@ -1,0 +1,13 @@
+[Unit]
+Description=PCP Recorder
+StartLimitIntervalSec=15
+StartLimitBurst=2
+
+[Service]
+Type=notify
+WorkingDirectory=/usr/local/src/PCPrecord
+ExecStart=/usr/local/src/PCPrecord/PCPrecord_actions.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
