@@ -19,4 +19,9 @@ Supports the following 'actions'
 * CfgFiles/openmetrics_workload.txt  
 * CfgFiles/workload.url  
 # USAGE
-* 
+root# git clone
+root# chmod -R 755 *.sh
+root# ./install_PCPbits.sh
+root# ./update_svc.sh
+root# ./sbcpu_example.sh
+
