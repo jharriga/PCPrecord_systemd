@@ -1,0 +1,200 @@
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=80ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=40ms        POSTtimer=80ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=80ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=80ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=90ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=80ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=40ms        POSTtimer=50ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+
+> PREtimer=50ms        POSTtimer=40ms
+

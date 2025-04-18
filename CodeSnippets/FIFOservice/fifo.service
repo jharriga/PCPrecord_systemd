@@ -1,0 +1,11 @@
+[Unit]
+Description=FIFO service
+
+[Service]
+Type=notify
+##NotifyAccess=all
+WorkingDirectory=/usr/local/src/FIFO
+ExecStart=/usr/local/src/FIFO/FIFO_actions.sh
+
+[Install]
+WantedBy=multi-user.target

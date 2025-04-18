@@ -1,0 +1,201 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.1692716794)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+**PRE-Workload execution
+iteration 1
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 1
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=310ms        POSTtimer=300ms
+
+**PRE-Workload execution
+iteration 2
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 2
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=180ms        POSTtimer=320ms
+
+**PRE-Workload execution
+iteration 3
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 3
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=180ms        POSTtimer=310ms
+
+**PRE-Workload execution
+iteration 4
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 4
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=310ms        POSTtimer=280ms
+
+**PRE-Workload execution
+iteration 5
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 5
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=170ms        POSTtimer=290ms
+
+**PRE-Workload execution
+iteration 6
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 6
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=180ms        POSTtimer=300ms
+
+**PRE-Workload execution
+iteration 7
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 7
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=170ms        POSTtimer=320ms
+
+**PRE-Workload execution
+iteration 8
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 8
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=180ms        POSTtimer=320ms
+
+**PRE-Workload execution
+iteration 9
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 9
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=300ms        POSTtimer=420ms
+
+**PRE-Workload execution
+iteration 10
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 10
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=180ms        POSTtimer=310ms
+
+CPU speed:
+    events per second:  5104.23
+
+General statistics:
+    total time:                          10.0007s
+    total number of events:              51055
+
+Latency (ms):
+         min:                                    0.68
+         avg:                                    0.78
+         max:                                   20.36
+         95th percentile:                        0.78
+         sum:                                39938.74
+
+Threads fairness:
+    events (avg/stddev):           12763.7500/146.43
+    execution time (avg/stddev):   9.9847/0.00
+

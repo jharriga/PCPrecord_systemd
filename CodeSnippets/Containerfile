@@ -1,0 +1,30 @@
+FROM fedora:40
+
+# Install PCP and Workload packages
+RUN dnf install -y --setopt=tsflags=nodocs \
+	pcp-zeroconf pcp-pmda-openmetrics pcp-pmda-denki \
+#	openssl sysbench \
+	sysbench \
+        jq \
+	&& \
+    dnf clean all && \
+    touch /var/lib/pcp/pmdas/{openmetrics,denki}/.NeedInstall
+
+# Does pcp-zeroconf already do this - redundant?
+RUN systemctl enable pmcd pmie pmlogger pmproxy
+
+# Ensure scripts are executable - FAILs
+#RUN chmod 755 run_sysbench.sh
+
+# Configure RFchassis openmetrics scripting
+COPY OpenMetrics/RFvars.cfg /var/lib/pcp/pmdas/openmetrics/config.d/.
+COPY OpenMetrics/RFchassis.sh /var/lib/pcp/pmdas/openmetrics/config.d/.
+RUN chmod 755 /var/lib/pcp/pmdas/openmetrics/config.d/RFchassis.sh
+
+# Configure Workload openmetrics scripting
+COPY OpenMetrics/openmetrics_workload.txt /tmp/.
+COPY OpenMetrics/workload.url /var/lib/pcp/pmdas/openmetrics/config.d/.
+#RUN systemctl restart pmcd
+
+CMD ["/usr/sbin/init"]
+

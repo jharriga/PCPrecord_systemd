@@ -1,0 +1,1700 @@
+**PRE-Workload execution
+iteration 1
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 1
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=510ms
+
+**PRE-Workload execution
+iteration 2
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 2
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 3
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 3
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=520ms
+
+**PRE-Workload execution
+iteration 4
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 4
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 5
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 5
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 6
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 6
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 7
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 7
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 8
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 8
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 9
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 9
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 10
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 10
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 11
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 11
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 12
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 12
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 13
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 13
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 14
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 14
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 15
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 15
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 16
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 16
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 17
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 17
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 18
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 18
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=520ms
+
+**PRE-Workload execution
+iteration 19
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 19
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 20
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 20
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 21
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 21
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 22
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 22
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 23
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 23
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 24
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 24
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=220ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 25
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 25
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 26
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 26
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 27
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 27
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 28
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 28
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=220ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 29
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 29
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 30
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 30
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 31
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 31
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=390ms
+
+**PRE-Workload execution
+iteration 32
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 32
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=220ms        POSTtimer=410ms
+
+**PRE-Workload execution
+iteration 33
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 33
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 34
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 34
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 35
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 35
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 36
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 36
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 37
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 37
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 38
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 38
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 39
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 39
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 40
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 40
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 41
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 41
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 42
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 42
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 43
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 43
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 44
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 44
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 45
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 45
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=220ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 46
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 46
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 47
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 47
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=400ms
+
+**PRE-Workload execution
+iteration 48
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 48
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 49
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 49
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 50
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 50
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 51
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 51
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 52
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 52
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 53
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 53
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 54
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 54
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 55
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 55
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=230ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 56
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 56
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 57
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 57
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 58
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 58
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 59
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 59
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=210ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 60
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 60
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=520ms
+
+**PRE-Workload execution
+iteration 61
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 61
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 62
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 62
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 63
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 63
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 64
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 64
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 65
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 65
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 66
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 66
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 67
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 67
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 68
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 68
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 69
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 69
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 70
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 70
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 71
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 71
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 72
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 72
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 73
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 73
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 74
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 74
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 75
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 75
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 76
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 76
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 77
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 77
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 78
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 78
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 79
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 79
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 80
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 80
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=520ms
+
+**PRE-Workload execution
+iteration 81
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 81
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=220ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 82
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 82
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 83
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 83
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 84
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 84
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 85
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 85
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 86
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 86
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 87
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 87
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=230ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 88
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 88
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=530ms
+
+**PRE-Workload execution
+iteration 89
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 89
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 90
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 90
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=540ms
+
+**PRE-Workload execution
+iteration 91
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 91
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 92
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 92
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 93
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 93
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 94
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 94
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 95
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 95
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=670ms
+
+**PRE-Workload execution
+iteration 96
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 96
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=650ms
+
+**PRE-Workload execution
+iteration 97
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 97
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=100ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 98
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 98
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=230ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 99
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 99
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
+**PRE-Workload execution
+iteration 100
+running 1
+numthreads 0
+runtime NaN
+throughput NaN
+latency NaN
+
+**POST-Workload execution
+iteration 100
+running 0
+numthreads 4
+runtime 10.001
+throughput 5766.270
+latency 0.690
+> PREtimer=90ms        POSTtimer=660ms
+
