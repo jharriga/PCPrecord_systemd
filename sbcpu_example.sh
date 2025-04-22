@@ -95,16 +95,16 @@ fail_exit "PCPrecord.service not running"
 # TIMER (ms) to measure start time
 read up rest </proc/uptime; prestart="${up%.*}${up#*.}"
 write_to_fifo 'Start'
+read up rest </proc/uptime; poststart="${up%.*}${up#*.}"
 write_to_fifo 'SYNC'
 # End TIMER  for 'Start' Request
-read up rest </proc/uptime; poststart="${up%.*}${up#*.}"
+read up rest </proc/uptime; postsync="${up%.*}${up#*.}"
 duration_start=$(( 10*(poststart - prestart) ))
-echo; echo "> STARTtimer=${duration_start}ms"
+duration_sync=$(( 10*(postsync - poststart) ))
+echo; echo "> STARTtimer=${duration_start}ms   SYNCtimer=${duration_sync}ms"
 
 # BEGIN: Workload section
 for loopcntr in `seq 1 $num_iterations`; do
-#    rm -f "$runlog"                             # Needed?
-
     # Workload start - RESET Workload Metrics for this iteration
     write_to_fifo 'Reset'
     # Update Workload States
