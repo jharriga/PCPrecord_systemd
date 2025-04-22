@@ -4,15 +4,18 @@
 # Monitor systemd-notify msgs with
 #      $ watch -n 1 'systemctl status PCPrecord.service'
 #########################################################################
-FIFO="/tmp/pcpFIFO"
-runlog="/tmp/runlog.txt"
-timeout_long=10             # wait-time for Start and Stop actions
-timeout_short=2             # wait-time for other actions
 num_iterations=5
 runtime=100
 iter_pause=60               # pause between iteration (testruns)
 
-# BEGIN FUNCTIONS #################################################
+#### BEGIN Client.inc
+# These GLOBAL vars and FUNCTIONS could be put in 'client.inc' file
+FIFO="/tmp/pcpFIFO"
+runlog="/tmp/runlog.txt"
+timeout_long=10             # wait-time for Start and Stop actions
+timeout_short=2             # wait-time for other actions
+
+# FUNCTIONS ###
 fail_exit() {
     if [ "$?" != "0" ]; then
         echo "ERROR: $1"
@@ -22,14 +25,15 @@ fail_exit() {
 }
 
 check_svc() {
+    wait_to=$1
     # Wait for the PCPrecord.SVC to report Status='READY'
     # This appears to be CPU time heavy
-    timeout "$timeout_period" bash -c \
+    timeout "$wait_to" bash -c \
       "until systemctl status PCPrecord.service | grep -q "READY:" \
       ; do sleep 0.1; done"
     # Trap timeout condition
     if [ $? -eq 124 ]; then
-        echo "Timed out waiting for systemd status=READY: \
+        echo "Timed out waiting $wait_to sec for systemd status=READY: \
           Request=$request_str"
         exit 2
     fi
@@ -41,27 +45,16 @@ write_to_fifo() {
     # NOTE: Special case for "SYNC" - skips the printf
     request_str=$1
 
-########## Handle 'short' and 'long' timeouts
+    # Handle 'short' and 'long' timeouts
     if [ "$request_str" = 'Stop' -o "$request_str" = 'Start' ]; then
         timeout_period="$timeout_long"
     else
         timeout_period="$timeout_short"
     fi
 
+    # Prior to sending new Request
     # Wait for the PCPrecord.SVC to report Status='READY'
-    # This appears to be CPU time heavy
     check_svc $timeout_short
-
-##    timeout "$timeout_period" bash -c \
-##      "until systemctl status PCPrecord.service | grep -q "READY:" \
-##      ; do sleep 0.1; done"
-    # Trap timeout condition
-##    if [ $? -eq 124 ]; then
-##        echo "Timed out waiting for systemd status=READY: \
-##          Request=$request_str"
-##        exit 2
-##    fi
-##########
 
     # Special case for "SYNC" - skips the printf
     # Function can be used to SYNC with systemd svc - don't printf
@@ -79,8 +72,8 @@ write_to_fifo() {
 }
 
 write_wl_metrics() {
-    # $runlog and $timeout_short are GLOBAL vars
-
+    # Synch is handled in 'write_to_fifo() --> check_svc()'
+    # $runlog is a GLOBAL var
     wl_throughput="$(awk '/events per second/ {printf("%.3f", $4)}' $runlog)"
     write_to_fifo "throughput ${wl_throughput}" 
     wl_latency="$(awk '/95th/ {printf("%.3f", $3)}' $runlog)"
@@ -88,10 +81,10 @@ write_wl_metrics() {
     wl_runtime="$(awk '/total time/ {printf("%.3f", $3)}' $runlog)"
     write_to_fifo "runtime ${wl_runtime}" 
     wl_numthreads="$(awk '/Number of threads/ {printf("%d", $4)}' $runlog)"
-    write_to_fifo "numthreads ${wl_numthreads}" 
-
+    write_to_fifo "numthreads ${wl_numthreads}"
 }
-# END FUNCTIONS ########################################
+# END FUNCTIONS
+#### END client.inc
 
 # MAIN #################################################
 # Check that PCPrecord.SVC is running
