@@ -10,7 +10,6 @@ test_name='sbcpu'
 pmlog_cfg="$PWD/${test_name}.cfg"
 
 runtime_array=(60 600 1800 3600)    # minutes: 1, 10, 30, 60
-##rt_array_length=${#runtime_array[@]}
 
 # Bring in FUNCTIONS and GLOBALS, inc $FIFO
 source $PWD/client.inc
