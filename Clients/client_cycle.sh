@@ -22,7 +22,7 @@ systemctl is-active --quiet PCPrecord.service
 fail_exit "PCPrecord.service not running"
 
 for loopcntr in `seq 1 $num_cycles`; do
-    echo "Cycle Number: $loopcntr"
+    echo; echo "Cycle Number: $loopcntr"
     for this_action in "${action_arr[@]}"; do
         if [[ "${this_action}" == 'Start' ]]; then
             archive_dir="$PWD/archive.$(date +%Y%m%d%H%M%S)"
