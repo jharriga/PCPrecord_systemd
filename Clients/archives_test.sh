@@ -64,7 +64,7 @@ for this_rt in "${runtime_array[@]}"; do
     # Stop TIMER for 'Stop' and report interval
     poststop=$(mark_ms)
     duration_stop=$(( 10*(poststop - prestop) ))
-    echo; echo "> STARTtimer=${duration_start}ms  \
+    echo "> STARTtimer=${duration_start}ms  \
       STOPtimer=${duration_stop}ms"
 
     # Iteration done - PAUSE
@@ -72,7 +72,7 @@ for this_rt in "${runtime_array[@]}"; do
     # Notify user of PCP-Archive location
     echo "PCP Archive directory: ${archive_dir}"
 
-    echo "**PRE-Workload execution"
+    echo "**POST-Workload execution"
     cat /tmp/openmetrics_workload.txt; echo     # DEBUG
     sleep "$iter_pause" 
 done
