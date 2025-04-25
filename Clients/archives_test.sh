@@ -34,7 +34,11 @@ for this_rt in "${runtime_array[@]}"; do
     this_action="Start ${archive_dir} $this_tn $pmlog_cfg"
 
     # Now lets create an ARCHIVE and then run the Workload
+    # TIMER (ms) to measure start time
+    prestart=$(mark_ms)
     write_to_fifo "${this_action}"
+    poststart=$(mark_ms)
+    duration_start=$(( 10*(poststart - prestart) ))
     sleep "$test_pause"    # inserts quiet-time into beginning of Archive
 
     # Workload start - RESET Workload Metrics for this iteration
@@ -46,8 +50,7 @@ for this_rt in "${runtime_array[@]}"; do
 
     echo "**PRE-Workload execution"
     cat /tmp/openmetrics_workload.txt; echo     # DEBUG
-##    sysbench cpu run --time="$this_rt" --threads="$(nproc)">"$runlog" 2>&1
-    sysbench cpu run --time="$this_rt" --threads=2>"$runlog" 2>&1
+    sysbench cpu run --time="$this_rt" --threads="$(nproc)">"$runlog" 2>&1
 
     # Workload done - update Workload State & Workload Metrics
     write_to_fifo 'running 0'
@@ -56,7 +59,14 @@ for this_rt in "${runtime_array[@]}"; do
     sleep "$test_pause"    # inserts quiet-time into end of Archive
 
     # Signal PCPrecord service to stop PMLOGGER
+    # Start (ms) TIMER to measure stop time
+    prestop=$(mark_ms)
     write_to_fifo 'Stop'
+    # Stop TIMER for 'Stop' and report interval
+    poststop=$(mark_ms)
+    duration_stop=$(( 10*(poststop - prestop) ))
+    echo; echo "> STARTtimer=${duration_start}ms  \
+      STOPtimer=${duration_stop}ms"
 
     # Iteration done - PAUSE
     echo "**TEST Completed $this_tn"
