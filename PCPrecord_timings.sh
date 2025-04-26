@@ -92,14 +92,13 @@ while : ; do
     # Required or we get TIMEOUT on 'read action < "$FIFO" '
     # Signal readiness for next $action. SYNC point w/client Workload
     # Report timing interval for most recent ACTION
-    systemd-notify --ready --status="READY: last-action - $action $interval"
+    systemd-notify --ready --status="READY: last-action - $action = ${interval}ms"
     # Read the Request/'$action' and then process it
     read action < "$FIFO"       # Blocks until data is available
     # Signal busy Processing this $action
     systemd-notify --status="$action PMLOGGER Request"
     action_arr=($action)        # Array of 'words' in Request read from FIFO
-## DEBUG - measure processing interval: $postaction-$preaction
-##    read up rest </proc/uptime; preaction="${up%.*}${up#*.}"
+## DEBUG - measure processing interval for ACTION: $postaction-$preaction
     preaction=$(mark_ms)
     case "${action_arr[0]}" in
         Start)     # 'Start $archive_dir $test_name $conf_file' 
@@ -155,8 +154,7 @@ while : ; do
             systemd-notify --status="Unrecognized action - IGNORED"
             ;;
     esac
-## DEBUG - measure processing interval
-##    read up rest </proc/uptime; postaction="${up%.*}${up#*.}"
+## DEBUG - measure time interval for processing ACTION
     postaction=$(mark_ms)
     interval=$(( 10*(postaction - preaction) ))
 done
