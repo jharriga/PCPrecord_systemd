@@ -11,7 +11,8 @@ action_arr=("Reset"\
   "running 1"\
   "running 0"\
   "Stop")
-om_workload_file="/tmp/openmetrics_workload.txt"
+actioncntr=0
+jom_workload_file="/tmp/openmetrics_workload.txt"
 
 # Bring in FUNCTIONS and GLOBALS, inc $FIFO
 source $PWD/client.inc
@@ -40,6 +41,9 @@ for loopcntr in `seq 1 $num_cycles`; do
             echo "test-name: $test_name"
             write_to_fifo 'Reset'   # Does not require PMLOGGER to be running
         fi
+        ((++actioncntr))
     done
     sleep "$pause"
 done
+echo "Testing complete. Issued a total of ${actioncntr} Actions"
+
