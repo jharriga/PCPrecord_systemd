@@ -3,7 +3,7 @@
 # Issues writes to the FIFO to invoke multiple 'Start' / 'Stop' cycles
 pause=5
 num_cycles=5
-test_name='sbcpu'
+test_name='cycle'
 pmlog_cfg="$PWD/${test_name}.cfg"
 # String array of ACTIONS for each cycle
 action_arr=("Reset"\
