@@ -13,7 +13,7 @@ Supports the following 'actions'
 * PCPrecord_actions.sh  <-- systemd service 'ExecScript' code. Processes 'actions'
 * PCPrecord_timings.sh  <-- use in place of 'PCPrecord_actions.sh' - report service-side $action timings  
 * pcp_functions.inc  <-- bash functions used by PCPrecord_actions.sh & PCPrecord_timings.sh
-# Client Scripts
+# Client Scripts & PCP Openmetrics config files
 * Clients/archives_test.sh  <-- creates PCP Archives for a variety of Workload runtimes  
 * Clients/client_cycle.sh  <-- exersizes PCPrecord_system service and reports client-side timings for $actions  
 * Clients/cycle.cfg  <-- example PMLOGGER configuration file. Specifies Metrics to record in PCP Archive  
