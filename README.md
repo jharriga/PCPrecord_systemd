@@ -23,8 +23,7 @@ Supports the following 'actions'
 * CfgFiles/RFchassis.url  
 * CfgFiles/openmetrics_workload.txt  
 * CfgFiles/workload.url  
-# USAGE to start PCPrecord_systemd
-root# git clone <repo>; cd PCPrecord_systemd; chmod 755 *.sh  
+# USAGE to start PCPrecord_systemd 
 root# ./install_PCPbits.sh  
 root# ./update_svc.sh  
 # USAGE to run a sample Client
