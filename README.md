@@ -10,7 +10,7 @@ Supports the following 'actions'
 * install_PCPbits.sh  <-- installs PCPrecord.service components & reqd Packages  
 * update_svc.sh  <-- updates PCPrecord systemd files and reload/restarts svc  
 * PCPrecord.service  <-- PCPrecord systemd unitfile  
-* PCPrecord_actions.sh  <-- systemd service 'ExecScript' code. Processes 'actions' & reports service-side timings  
+* PCPrecord_actions.sh  <-- systemd service 'ExecStart' code. Processes 'actions' & reports service-side timings  
 * pcp_functions.inc  <-- bash functions used by PCPrecord_actions.sh & PCPrecord_timings.sh
 # USAGE to start PCPrecord_systemd 
 root# ./install_PCPbits.sh  
