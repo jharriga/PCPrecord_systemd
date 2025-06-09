@@ -12,4 +12,5 @@
 root# cd Clients  
 root# chmod 755 *.sh  
 root# Clients/client_sbcpu.sh  
-  
+# View Metrics with PMREP
+root# pmrep -p -a ARCHIVE-NAME openmetrics.workload kernel.all.cpu.user | more
