@@ -10,7 +10,6 @@ chmod 755 *.sh
 cp PCPrecord.service /etc/systemd/system/.
 cp PCPrecord_actions.sh "${working_dir}/."
 cp pcp_functions.inc "${working_dir}/."
-cp sbcpu.cfg "${working_dir}/."
 
 # Stop and then Restart the service
 systemctl stop PCPrecord.service
