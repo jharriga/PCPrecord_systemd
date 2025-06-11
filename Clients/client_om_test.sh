@@ -6,11 +6,13 @@ pause=5
 num_cycles=5
 test_name='om_test'
 pmlog_cfg="$PWD/${test_name}.cfg"
-# String array of ACTIONS for each cycle
+# String array of ACTIONS for each loop
+# NOTE: throughput becomes available after 'running 0' and should disappear upon 'Reset'
 action_arr=("Reset"\
   "Start"\
   "running 1"\
   "running 0"\
+  "throughput 123.456"\
   "Stop")
 actioncntr=0
 ##jom_workload_file="/tmp/openmetrics_workload.txt"
