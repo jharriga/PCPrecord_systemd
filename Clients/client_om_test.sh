@@ -13,7 +13,7 @@ action_arr=("Reset"\
   "running 0"\
   "Stop")
 actioncntr=0
-jom_workload_file="/tmp/openmetrics_workload.txt"
+##jom_workload_file="/tmp/openmetrics_workload.txt"
 
 # Bring in FUNCTIONS and GLOBALS, inc $FIFO
 source $PWD/client.inc
@@ -22,6 +22,8 @@ source $PWD/client.inc
 # Check that PCPrecord.SVC is running
 systemctl is-active --quiet PCPrecord.service
 fail_exit "PCPrecord.service not running"
+
+echo "TEST Conditions: num_cycles=${num_cycles} Pause between Actions=${pause}sec"
 
 for loopcntr in `seq 1 $num_cycles`; do
     echo; echo "Cycle Number: $loopcntr"
@@ -34,7 +36,7 @@ for loopcntr in `seq 1 $num_cycles`; do
         write_to_fifo "${this_action}"
         if [[ "${this_action}" == 'Stop' ]]; then
             # Notify user of PCP-Archive location
-            echo -n "PCP Archive directory: ${archive_dir}  "
+            echo -n "PCP Archive directory: ${archive_dir}"
             echo "test-name: $test_name"
             write_to_fifo 'Reset'   # Does not require PMLOGGER to be running
         fi
