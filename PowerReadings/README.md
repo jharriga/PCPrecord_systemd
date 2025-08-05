@@ -27,4 +27,8 @@ directory and the '.sh' files should be made executable
 >    352.000    186.000    182.000  
 >    352.000    185.000    181.000  
 
-For more info on PMDA-OPENMETRICS see the man page
+For more info on PMDA-OPENMETRICS see the man page  
+
+**test.sh is a utility that continously echoes Redfish Chassis & PDU power readings to screen, without requiring use of Perf CoPilot** 
+> Requires vars in 'RFvars.cfg' to be configured for URLs and Credentials  
+> By default the repeat loop delay is 5 seconds
