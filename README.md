@@ -20,5 +20,5 @@ root# cd Clients
 See README.md    
 
 # To Record Power Usage  
-cd PowerReadings  
+root# cd PowerReadings  
 See README.md  
