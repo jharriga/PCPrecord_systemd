@@ -18,3 +18,7 @@ root# ./update_svc.sh
 # USAGE to run a sample Client
 root# cd Clients  
 See README.md    
+
+# To Record Power Usage  
+cd PowerReadings  
+See README.md  
