@@ -1,5 +1,6 @@
 # Files and scripts useful for Perf Co-Pilot and power usage metrics  
 # OpenMetrics/  
+# ADD INSTALL SCRIPT AND NOTES on nvidia-gpu
  
 **Openmetrics PMDA Files**
 > These files extend the openmetrics PMDA to access the Redfish power usage
