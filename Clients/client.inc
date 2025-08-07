@@ -72,5 +72,31 @@ write_wl_metrics() {
     wl_numthreads="$(awk '/Number of threads/ {printf("%d", $4)}' $runlog)"
     write_to_fifo "numthreads ${wl_numthreads}"
 }
+
+PCParchive_start() {
+  local archive_dir=$1
+  local test_name=$2
+  local pmlog_cfg=$3
+
+  # Check that PCPrecord.SVC is running
+  systemctl is-active --quiet PCPrecord.service
+  fail_exit "PCPrecord.service not running"
+
+  # Start PMLOGGER to create the ARCHIVE
+  start_action="Start ${archive_dir} $test_name $pmlog_cfg"
+  write_to_fifo "${start_action}"
+}
+
+PCParchive_end() {
+  # Signal PCPrecord service to stop PMLOGGER
+  write_to_fifo 'Stop'
+
+  # Notify user of PCP-Archive location
+  ##echo "PCP Archive directory: ${archive_dir}"
+
+  # All done with test-run. Reset openmetric.workload metrics
+  write_to_fifo 'Reset'      # Does not require PMLOGGER to be running
+}
+
 # END FUNCTIONS
 #### END client.inc
