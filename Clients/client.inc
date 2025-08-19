@@ -2,7 +2,7 @@
 # These GLOBAL vars and FUNCTIONS could be put in 'client.inc' file
 FIFO="/tmp/pcpFIFO"
 runlog="/tmp/runlog.txt"
-timeout_long=10             # wait-time for Start and Stop actions
+timeout_long=30             # wait-time for Start and Stop actions
 timeout_short=2             # wait-time for other actions
 
 # FUNCTIONS ###
