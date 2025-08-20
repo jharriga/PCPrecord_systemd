@@ -61,11 +61,11 @@ pcp_start()
       "${archive_loc}" &
 
 # First check that the pmlogger process is running
-    timeout 5 bash -c \
+    timeout 10 bash -c \
       "until pgrep pmlogger>/dev/null; do sleep 0.5; done"
     # Trap timeout condition
     if [ $? -eq 124 ]; then
-        echo "Timed out waiting for PMLOGGER to Start1"
+        echo "Timed out waiting 10s for PMLOGGER to Start1"
         exit 30
     fi
 # Now check that PMLOGGER has started logging
@@ -85,11 +85,11 @@ pcp_stop()
 # Stop PCP logger and pause for pmlogger to write archive
     pkill -USR1 pmlogger
 # Now check that PMLOGGER has stopped logging
-    timeout 5 bash -c \
+    timeout 10 bash -c \
       "until ! pgrep pmlogger>/dev/null; do sleep 0.5; done"
     # Trap timeout condition
     if [ $? -eq 124 ]; then
-        echo "Timed out waiting for PMLOGGER to Stop"
+        echo "Timed out waiting 10s for PMLOGGER to Stop"
         pmlogger_killed="failed"        # Not used -yet
         exit 40
     fi
