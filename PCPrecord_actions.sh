@@ -24,8 +24,8 @@ update_om_workload() {
 	exit 2
     else
         v_iter_cnt=$1
-	v_running=$2
-	v_numthreads=$3
+	    v_running=$2
+	    v_numthreads=$3
         v_runtime=$4
         v_throughput=$5
         v_latency=$6
