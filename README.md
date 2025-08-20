@@ -22,3 +22,6 @@ See README.md
 # To Record Power Usage  
 root# cd PowerReadings  
 See README.md  
+
+# Helpful DEBUG
+root# until systemctl status PCPrecord.service | grep -q "READY:"; do sleep 0.1; done  
