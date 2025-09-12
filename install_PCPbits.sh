@@ -14,8 +14,8 @@ touch /var/lib/pcp/pmdas/{openmetrics,denki}/.NeedInstall
 systemctl enable pmcd pmie pmlogger pmproxy
 
 # Configure RFchassis openmetrics scripting w/hardcoded values
-cp -f CfgFiles/openmetrics_RFchassis.txt /tmp/.
-cp -f CfgFiles/RFchassis.url /var/lib/pcp/pmdas/openmetrics/config.d/.
+##cp -f CfgFiles/openmetrics_RFchassis.txt /tmp/.
+##cp -f CfgFiles/RFchassis.url /var/lib/pcp/pmdas/openmetrics/config.d/.
 
 # Configure Workload openmetrics scripting
 cp -f CfgFiles/openmetrics_workload.txt /tmp/.
